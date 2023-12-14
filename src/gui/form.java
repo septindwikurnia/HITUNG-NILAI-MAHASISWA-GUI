@@ -57,7 +57,7 @@ public class form extends javax.swing.JFrame {
                 txtnimActionPerformed(evt);
             }
         });
-        getContentPane().add(txtnim, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 320, 30));
+        getContentPane().add(txtnim, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, 260, 30));
 
         txtnama.setBackground(new java.awt.Color(217, 217, 217));
         txtnama.setBorder(null);
@@ -66,11 +66,11 @@ public class form extends javax.swing.JFrame {
                 txtnamaActionPerformed(evt);
             }
         });
-        getContentPane().add(txtnama, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 300, 320, 30));
+        getContentPane().add(txtnama, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 280, 250, 30));
 
         txtabsen.setBackground(new java.awt.Color(217, 217, 217));
         txtabsen.setBorder(null);
-        getContentPane().add(txtabsen, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 360, 320, 30));
+        getContentPane().add(txtabsen, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 340, 250, 30));
 
         txttugas.setBackground(new java.awt.Color(217, 217, 217));
         txttugas.setBorder(null);
@@ -79,7 +79,7 @@ public class form extends javax.swing.JFrame {
                 txttugasActionPerformed(evt);
             }
         });
-        getContentPane().add(txttugas, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 420, 320, 40));
+        getContentPane().add(txttugas, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 400, 250, 30));
 
         txtuts.setBackground(new java.awt.Color(217, 217, 217));
         txtuts.setBorder(null);
@@ -88,23 +88,38 @@ public class form extends javax.swing.JFrame {
                 txtutsActionPerformed(evt);
             }
         });
-        getContentPane().add(txtuts, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 490, 330, 30));
+        getContentPane().add(txtuts, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 460, 250, 30));
 
         txtuas.setBackground(new java.awt.Color(217, 217, 217));
         txtuas.setBorder(null);
-        getContentPane().add(txtuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 550, 330, 30));
+        txtuas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtuasActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtuas, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 520, 250, 30));
 
         outnim.setBackground(new java.awt.Color(217, 217, 217));
         outnim.setBorder(null);
-        getContentPane().add(outnim, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 240, 350, 40));
+        outnim.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                outnimActionPerformed(evt);
+            }
+        });
+        getContentPane().add(outnim, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 230, 270, 30));
 
         outnama.setBackground(new java.awt.Color(217, 217, 217));
         outnama.setBorder(null);
-        getContentPane().add(outnama, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 310, 350, 30));
+        outnama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                outnamaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(outnama, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 290, 280, 30));
 
         outakhir.setBackground(new java.awt.Color(217, 217, 217));
         outakhir.setBorder(null);
-        getContentPane().add(outakhir, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 370, 350, 30));
+        getContentPane().add(outakhir, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 350, 260, 30));
 
         outgrade.setBackground(new java.awt.Color(217, 217, 217));
         outgrade.setBorder(null);
@@ -113,7 +128,7 @@ public class form extends javax.swing.JFrame {
                 outgradeActionPerformed(evt);
             }
         });
-        getContentPane().add(outgrade, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 430, 350, 30));
+        getContentPane().add(outgrade, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 410, 260, 30));
 
         outket.setBackground(new java.awt.Color(217, 217, 217));
         outket.setBorder(null);
@@ -122,7 +137,7 @@ public class form extends javax.swing.JFrame {
                 outketActionPerformed(evt);
             }
         });
-        getContentPane().add(outket, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 490, 340, 80));
+        getContentPane().add(outket, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 470, 230, 80));
 
         btnsubmit.setContentAreaFilled(false);
         btnsubmit.setBackground(new java.awt.Color(217, 217, 217));
@@ -132,7 +147,7 @@ public class form extends javax.swing.JFrame {
                 btnsubmitActionPerformed(evt);
             }
         });
-        getContentPane().add(btnsubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 600, 60, 40));
+        getContentPane().add(btnsubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 570, 60, 40));
 
         btndownload.setContentAreaFilled(false);
         btndownload.setBackground(new java.awt.Color(217, 217, 217));
@@ -142,7 +157,7 @@ public class form extends javax.swing.JFrame {
                 btndownloadActionPerformed(evt);
             }
         });
-        getContentPane().add(btndownload, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 600, 70, 40));
+        getContentPane().add(btndownload, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 570, 70, 40));
 
         btnclear.setContentAreaFilled(false);
         btnclear.setBackground(new java.awt.Color(153, 153, 153));
@@ -152,7 +167,7 @@ public class form extends javax.swing.JFrame {
                 btnclearActionPerformed(evt);
             }
         });
-        getContentPane().add(btnclear, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 670, 160, 60));
+        getContentPane().add(btnclear, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 640, 110, 50));
 
         btnexit.setContentAreaFilled(false);
         btnexit.setBackground(new java.awt.Color(153, 153, 153));
@@ -162,10 +177,10 @@ public class form extends javax.swing.JFrame {
                 btnexitActionPerformed(evt);
             }
         });
-        getContentPane().add(btnexit, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 670, 170, 60));
+        getContentPane().add(btnexit, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 640, 110, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui/form.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, -20, 1420, 790));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui/Untitled (4).png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1130, 770));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -206,7 +221,7 @@ public class form extends javax.swing.JFrame {
                 !txttugas.getText().matches("\\d+") ||
                 !txtuts.getText().matches("\\d+") ||
                 !txtuas.getText().matches("\\d+")) {
-            JOptionPane.showMessageDialog(null, "Absen, tugas, UTS, dan UAS harus berisi angka!");
+            JOptionPane.showMessageDialog(null, "Nilai harus berisi angka!");
             return; // Hentikan eksekusi jika ada yang tidak berisi angka
         }
         String nim1 = txtnim.getText();
@@ -303,6 +318,18 @@ public class form extends javax.swing.JFrame {
     
         
     }//GEN-LAST:event_btndownloadActionPerformed
+
+    private void txtuasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtuasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtuasActionPerformed
+
+    private void outnimActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outnimActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_outnimActionPerformed
+
+    private void outnamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outnamaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_outnamaActionPerformed
 
     /**
      * @param args the command line arguments
